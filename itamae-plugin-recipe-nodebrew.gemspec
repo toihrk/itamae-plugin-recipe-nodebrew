@@ -9,7 +9,6 @@ Gem::Specification.new do |spec|
   spec.authors       = ["toihrk"]
   spec.email         = ["toihrk@me.com"]
 
-
   spec.summary       = %q{Itamae Recipe 'nodebrew'}
   spec.description   = %q{Itamae Recipe 'nodebrew'}
   spec.homepage      = "https://github.com/toihrk/itamae-plugin-recipe-nodebrew"
@@ -22,7 +21,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "itamae", "~> 1.2.21"
 
-  spec.add_development_dependency "bundler", "~> 1.10.6"
+  spec.add_development_dependency "bundler", "~> 1.10.5"
   spec.add_development_dependency "rake", "~> 10.4.2"
   spec.add_development_dependency "serverspec", "~> 2.3.1"
 end
